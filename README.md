@@ -1,5 +1,5 @@
 # vue-elementui-5
-[四、vue＋ElementUI开发后台管理模板—方法指令、接口数据](https://www.jianshu.com/p/e770b948d99c)的代码
+[五、vue＋ElementUI开发后台管理模板—精确到按钮的权限控制](https://www.jianshu.com/p/1353ec85448b)的代码
 
 更多
 

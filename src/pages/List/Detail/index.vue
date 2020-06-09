@@ -1,0 +1,88 @@
+<template>
+  <div>
+      <div>List-Detail</div>
+      <p>{{deliveryValue}}</p>
+      <p>{{toChildrenObj}}</p>
+      <p>{{toChildrenArr}}</p>
+      <div>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>====</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+          <p>哈哈大</p>
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+    props:['deliveryValue','toChildrenObj','toChildrenArr'],
+    data(){
+        return {
+            test:{
+                deliveryValue:"123"
+            }
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>

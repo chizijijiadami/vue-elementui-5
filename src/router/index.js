@@ -76,6 +76,39 @@ export const pagesRouterList = [
                 }
             }
         ]
+    },
+    {
+        path: '/charts',
+        component: _import('Layout/index'),
+        redirect: '/charts/index',
+        name: "Charts",
+        meta: {
+            title: "图表统计",
+            icon: "document",
+            isShow: true
+        },
+        children: [
+            {
+                path: 'index',
+                component: _import('Charts/index'),
+                name: "ChartsIndex",
+                meta: {
+                    title: "图表统计",
+                    icon: "user",
+                    isShow: false
+                }
+            },
+            {
+                path: 'online',
+                component: _import('Charts/Online/index'),
+                name: "ChartsOnlineIndex",
+                meta: {
+                    title: "实时统计",
+                    icon: "user",
+                    isShow: true
+                }
+            }
+        ]
     }
 ]
 export default new Router({

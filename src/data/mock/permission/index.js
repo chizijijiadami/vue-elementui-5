@@ -43,6 +43,20 @@ Mock.mock("/permission", "get", () => {
                     name:'特性'  
                   }
                 ]
+              },
+              {
+                code:'Charts',
+                name:'图表统计',
+                children:[
+                  {
+                    code:'ChartsIndex',
+                    name:'图表统计'
+                  },
+                  {
+                    code:'ChartsOnlineIndex',
+                    name:'实时统计'  
+                  }
+                ]
               }
             ]
           },
